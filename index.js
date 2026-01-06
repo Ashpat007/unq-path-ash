@@ -49,7 +49,7 @@ app.get('/unique-paths', (req, res) => {
  * Root route (optional, but helpful)
  */
 app.get('/', (req, res) => {
-  res.send('Unique Paths API is running . Use /unique-paths?m=3&n=7 to get started.');
+  res.send('Unique Paths API is running . Use /unique-paths?m=3&n=7 as an example.');
 });
 
 /**
