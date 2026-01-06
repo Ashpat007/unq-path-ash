@@ -1,0 +1,28 @@
+{
+  "name": "unq-path-ash",
+  "version": "1.0.0",
+  "description": "Used m n values from input and returns possible unique paths",
+  "homepage": "https://github.com/Ashpat007/unq-path-ash#readme",
+  "bugs": {
+    "url": "https://github.com/Ashpat007/unq-path-ash/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashpat007/unq-path-ash.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
